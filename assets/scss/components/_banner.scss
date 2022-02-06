@@ -1,0 +1,111 @@
+.banner__bgImage {
+  position: relative;
+  display: flex;
+  background-image: url("/assets/img/bannerMobile.jpg");
+  background-size: cover;
+  width: 100%;
+  height: toRem(250);
+  min-width: toRem(350);
+  max-height: toRem(250);
+  align-items: center;
+}
+
+.banner__textArea {
+  position: absolute;
+  margin-left: toRem(20);
+  font-family: $ws;
+
+  &-header {
+    font-weight: 700;
+    color: $white;
+  }
+
+  &-subheader {
+    font-weight: 500;
+    color: $blue;
+    margin-bottom: toRem(10);
+  }
+
+  &-icons {
+    display: flex;
+    color: $white;
+    gap: toRem(10);
+  }
+
+  &-facebookIcon {
+    color: $white;
+  }
+
+  &-githubIcon {
+    color: $white;
+  }
+}
+
+@media (min-width: $break500) {
+  .banner__textArea {
+    margin-left: toRem(80);
+  }
+}
+
+@media (min-width: $break700) {
+  .banner__bgImage {
+    background-image: url("/assets/img/banner.jpg");
+    height: toRem(400);
+    max-height: toRem(2100);
+  }
+}
+
+@media (min-width: $break1000) {
+  .banner__textArea-header {
+    font-size: toRem(40);
+  }
+
+  .banner__textArea-subheader {
+    font-size: toRem(25);
+  }
+
+  .banner__textArea-facebookIcon {
+    font-size: toRem(27);
+  }
+
+  .banner__textArea-githubIcon {
+    font-size: toRem(27);
+  }
+}
+
+@media (min-width: $break1650) {
+  .banner__bgImage {
+    height: toRem(600);
+  }
+  .banner__textArea-header {
+    font-size: toRem(60);
+  }
+  .banner__textArea-subheader {
+    font-size: toRem(45);
+  }
+  .banner__textArea-facebookIcon {
+    font-size: toRem(40);
+  }
+
+  .banner__textArea-githubIcon {
+    font-size: toRem(40);
+  }
+}
+
+@media (min-width: $break2175) {
+  .banner__bgImage {
+    height: toRem(800);
+  }
+  .banner__textArea-header {
+    font-size: toRem(80);
+  }
+  .banner__textArea-subheader {
+    font-size:  toRem(65);
+  }
+  .banner__textArea-facebookIcon {
+    font-size: toRem(60);
+  }
+  .banner__textArea-githubIcon {
+    font-size: toRem(60);
+  }
+}
