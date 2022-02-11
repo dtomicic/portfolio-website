@@ -1,0 +1,228 @@
+.portfolio {
+  background-color: $whitebg;
+  font-family: $ws;
+
+  &__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__heading {
+    margin-top: toRem(20);
+    font-weight: 700;
+    font-size: toRem(24)
+  }
+
+  &__line {
+    background-color: $blue;
+    height: toRem(2);
+    width: toRem(120);
+    margin-bottom: toRem(30);
+  }
+
+  &__mainArea {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  &__portLine {
+    background-color: $blue;
+    height: toRem(1120);
+    width: toRem(2);
+    margin-top: toRem(8);
+    margin-bottom: toRem(40);
+
+    &.desktop {
+      display: none;
+    }
+  }
+
+  &__rightArea {
+    margin-left: toRem(20);
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+  }
+
+  &__skillsArea{
+    margin-left: toRem(20);
+
+    &Picture {
+      width: 100%;
+      border-radius: toRem(100);
+      max-width: toRem(150);
+      margin-top: toRem(40);
+      margin-bottom: toRem(30);
+    }
+  }
+
+  &__textBlock {
+    margin-bottom: toRem(35);
+    max-width: toRem(192);
+    min-width: toRem(192);
+
+    &Header {
+      display: flex;
+      align-items: center;
+      margin-bottom: toRem(11);
+      justify-content: space-between;
+    }
+
+    &Dot {
+      background-color: $blue;
+      height: toRem(12);
+      width: toRem(12);
+      border-radius: 50%;
+      position: relative;
+      right: toRem(207);
+    }
+
+    &Paragraph {
+      font-size: toRem(14);
+      font-weight: 500;
+    }
+
+    &SubHeaders {
+      margin-bottom: toRem(11);
+    }
+
+    &SubHeader {
+      font-size: toRem(14);
+    }
+
+    &SkillsItem {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: toRem(20);
+    }
+
+    &SkillsHeader {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 77%;
+      margin-top: toRem(10);
+      max-width: toRem(240);
+    }
+
+    &SkillsHeading {
+      font-weight: 400;
+      font-size: toRem(18);
+      margin-bottom: toRem(10);
+
+      &.desktop {
+        display: none;
+      }
+    }
+
+    &SkillsBottom {
+      width: 80%;
+      max-width: toRem(250);
+      height: toRem(20);
+      background-color: $gray;
+      border-radius: toRem(100);
+    }
+
+    &SkillsTop {
+      width: 90%;
+      height: toRem(20);
+      background-color: $blue;
+      border-radius: toRem(100);
+
+      &.css {
+        width: 80%;
+      }
+
+      &.js {
+        width: 40%;
+      }
+
+      &.ps {
+        width: 40%;
+      }
+    }
+  }
+}
+
+.accent {
+  font-weight: 400;
+}
+
+@media (min-width: $break550) {
+  .portfolio__portLine {
+    margin-left: toRem(70);
+    height: toRem(1000);
+  }
+
+  .portfolio__textBlock {
+    max-width: toRem(300);
+    min-width: toRem(300);
+
+    &Dot {
+      right: toRem(315);
+    }
+  }
+}
+
+@media (min-width: $break1000) {
+  .portfolio__portLine {
+    height: toRem(600);
+
+    &.desktop {
+      display: block;
+      height: toRem(400);
+    }
+  }
+
+  .portfolio__changingArea {
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+  }
+
+  .portfolio__skillsAreaPicture {
+    max-width: toRem(200);
+  }
+}
+
+@media (min-width: $break1300) {
+  .portfolio__mainArea {
+    justify-content: center;
+  }
+
+  .portfolio__portLine {
+    height: toRem(900);  
+  }
+
+  .portfolio__heading {
+    font-size: toRem(30);
+  }
+
+  .portfolio__line {
+    width: toRem(150);
+  }
+
+  .portfolio__textBlockHeading {
+    font-size: toRem(21);
+  }
+
+  .portfolio__textBlockParagraph {
+    font-size: toRem(19);
+  }
+
+  .portfolio__textBlockSubHeader {
+    font-size: toRem(19);
+  }
+
+  .portfolio__changingArea {
+    max-width: toRem(1110);
+  }
+
+  .portfolio__skillsAreaPicture {
+    max-width: toRem(300);
+    border-radius: toRem(200);
+    margin-top: toRem(150);
+  }
+}
