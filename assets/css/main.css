@@ -7,7 +7,7 @@
 }
 
 .banner {
-  background-image: url(/assets/img/banner.jpg);
+  background-image: url(/assets/img/banner.webp);
   background-size: cover;
   height: 18.75rem;
   width: 100%;
@@ -177,8 +177,8 @@
 
 .portfolio__portLine {
   background-color: #21ADBA;
-  height: 70rem;
-  width: 0.125rem;
+  height: 73.125rem;
+  width: 0.1875rem;
   margin-top: 0.5rem;
   margin-bottom: 2.5rem;
 }
@@ -232,8 +232,8 @@
 
 .portfolio__textBlockDot {
   background-color: #21ADBA;
-  height: 0.75rem;
-  width: 0.75rem;
+  height: 0.8125rem;
+  width: 0.8125rem;
   border-radius: 50%;
   position: relative;
   right: 12.9375rem;
@@ -280,7 +280,7 @@
 }
 
 .portfolio__textBlockSkillsHeading {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 1.125rem;
   margin-bottom: 0.625rem;
 }
