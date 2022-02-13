@@ -29,8 +29,8 @@
 
   &__portLine {
     background-color: $blue;
-    height: toRem(1120);
-    width: toRem(2);
+    height: toRem(1170);
+    width: toRem(3);
     margin-top: toRem(8);
     margin-bottom: toRem(40);
 
@@ -72,8 +72,8 @@
 
     &Dot {
       background-color: $blue;
-      height: toRem(12);
-      width: toRem(12);
+      height: toRem(13);
+      width: toRem(13);
       border-radius: 50%;
       position: relative;
       right: toRem(207);
@@ -108,7 +108,7 @@
     }
 
     &SkillsHeading {
-      font-weight: 400;
+      font-weight: 500;
       font-size: toRem(18);
       margin-bottom: toRem(10);
 
