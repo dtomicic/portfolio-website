@@ -1,0 +1,32 @@
+.footer {
+  background-color: $whitebg;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__mainArea {
+    margin-top: toRem(10);
+    margin-bottom: toRem(5);
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+
+    &Socials {
+      margin: 0 auto;
+    }
+
+    &Copyright {
+      font-family: $ws;
+      font-weight: 400;
+      color: $graycy;
+      margin: 0 auto;
+    }
+  }
+}
+
+@media (min-width: $break1300) {
+  .footer__mainAreaCopyright {
+    font-size: toRem(18);
+  }
+}
