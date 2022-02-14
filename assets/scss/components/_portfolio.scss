@@ -163,6 +163,14 @@
     &Dot {
       right: toRem(315);
     }
+
+    &SkillsHeading.desktop {
+      display: block;
+    }
+
+    &SkillsHeading.mobile {
+      display: none;
+    }
   }
 }
 
