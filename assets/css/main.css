@@ -332,6 +332,12 @@
   .portfolio__textBlockDot {
     right: 19.6875rem;
   }
+  .portfolio__textBlockSkillsHeading.desktop {
+    display: block;
+  }
+  .portfolio__textBlockSkillsHeading.mobile {
+    display: none;
+  }
 }
 
 @media (min-width: 1000px) {
