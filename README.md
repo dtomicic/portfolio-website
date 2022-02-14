@@ -26,7 +26,7 @@ I wanted to build a portfolio for myself from the ground up (design and code all
 ## Screenshots
 <p align="center">
 <img width="500" src="https://user-images.githubusercontent.com/25035576/153863283-85de123d-fe9a-4281-8857-75e82e66d180.png">
-<img src="https://user-images.githubusercontent.com/25035576/153863383-4b32ea77-7669-4acd-943b-b3bbaaf6a065.png">
+<img width="500" src="https://user-images.githubusercontent.com/25035576/153863383-4b32ea77-7669-4acd-943b-b3bbaaf6a065.png">
 
 
   
