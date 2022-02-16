@@ -82,6 +82,10 @@
     &Paragraph {
       font-size: toRem(14);
       font-weight: 500;
+
+      &.second {
+        margin-bottom: toRem(20);
+      }
     }
 
     &SubHeaders {
