@@ -21,7 +21,7 @@ I wanted to build a portfolio for myself from the ground up (design and code all
 - SCSS
 
 ## Live preview
-[Click for live preview]()
+[Click for live preview](https://portfolio-website-omam69bml-dtomicic.vercel.app/)
 
 ## Screenshots
 <p align="center">
