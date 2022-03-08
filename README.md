@@ -19,6 +19,7 @@ Task here was pretty self-explanatory, I wanted to build a portfolio website so 
 
 ## Project overview
 I started out with doing my own design and trying to follow it as close as possible, I've encountered some problems in the portfolio area since the vertical lines and dots that go over them shifted a bit on different screen sizes so I explored other options like putting the lines and dots as images, but managed to solve the problem in the end with additional CSS making the whole section more dynamic than it would be with pictures. Sliders were also a bit problematic but I applied similar solutions like with the lines and dots and solved it. Other than that there were no real problems, simple HTML and CSS styling and positioning around the site. 
+Project will be updated from time to time until I think it's fit for my own portfolio website.
 
 ## Built with
 - HTML
